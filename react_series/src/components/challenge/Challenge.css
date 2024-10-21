@@ -1,0 +1,54 @@
+/* Challenge.css */
+
+.counter-challenge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  p {
+    font-size: 2rem;
+    color: #555;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .btn:active {
+    background-color: #1c6ea4;
+    transform: scale(0.98);
+  }
+  
+  .btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px #3498db;
+  }
+  
